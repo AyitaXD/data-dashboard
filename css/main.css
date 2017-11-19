@@ -52,14 +52,14 @@ a:hover {
 
 .graficos {
   display: -webkit-box;
-  display: -webkit-box;
-  margin-right: 37px;
+  margin-left: 37px;
 }
 
 .enrollment {
   width: 500px;
   height: 500px;
-  background: #dbdfe0
+  background: #dbdfe0;
+  margin-right: 37px;
 }
 
 .achievement {
