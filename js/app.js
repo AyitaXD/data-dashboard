@@ -9,6 +9,7 @@ function alumnas() {
     var contenedor=document.getElementById("overview");
 		contenedor.remove(overview);
     var section=document.createElement("section");
+    section.setAttribute("id", "alumnas")
 
     for (var i = 0; i < data.SCL["2017-2"].students.length; i++) {
   		var students, bphoto, name, techPoints, techSkills, lifePoints, lifeSkills,
@@ -50,4 +51,11 @@ function alumnas() {
     lifeSkills.innerHTML= "Life Skills";
 
   }
+  }
+
+function overview() {
+    var button=document.getElementById("alumnas");
+    button.remove(alumnas);
+    var contenedor=document.getElementById("overview");
+
   }
