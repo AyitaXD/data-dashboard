@@ -21,15 +21,20 @@
 
   <section id="scl-2017-2">
     <ul class="nav-tabs">
-      <li><a id="tab1" href="#">2016-2</a></li>
-      <li><a id="tab2" href="#">2017-1</a></li>
-      <li><a id="tab3" href="#">2017-2</a></li>
+      <button onclick="2016-2()"> 2016-2 </button>
+      <button onclick="2017-1()"> 2017-1 </button>
+      <button onclick="2017-2()"> 2017-2 </button>
     </ul>
     <hr>
     <ul class="nav-tabs1">
-      <li><a id="tab4" href="#">Overview</a></li>
-      <li><a id="tab5" href="#">Alumnas</a></li>
+      <button id="tab1" onclick="overview()"> Overview </button>
+      <button id="tab2" onclick="alumnas()"> Alumnas </button>
     </ul>
+  </section>
+
+  <!-- Overview -->
+
+  <section id="overview">
 
     <div class="graficos">
       <div class="enrollment">
@@ -42,9 +47,21 @@
       </div>
     </div>
 
+    <div class="graficos">
+      <div class="net-promoter-score">
+        <h1>net promoter score</h1>
+      </div>
+      <div class="tech-skills">
+        <h1>tech-skills</h1>
+      </div>
 
+    </div>
 
   </section>
+
+
+  <!-- Alumnas -->
+
 
   <!-- Base de datos -->
   <script src="./js/data.js"></script>
